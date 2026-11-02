@@ -94,7 +94,9 @@ The project provides a basic understanding of sales analytics and business intel
 ## 10. Author
 
 Mohammad Kaif
+
 Mohd Jeeshan 
+
 Sajid Ali
 
 BBA-BA (IBM)
