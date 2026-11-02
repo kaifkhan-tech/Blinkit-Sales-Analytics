@@ -1,0 +1,12 @@
+Create these measures after importing blinkit_sales table:
+
+Total Sales = SUM(blinkit_sales[Sales])
+Average Sales = AVERAGE(blinkit_sales[Sales])
+Number of Records = COUNTROWS(blinkit_sales)
+Average Rating = AVERAGE(blinkit_sales[Rating])
+Sales Share % = DIVIDE([Total Sales], CALCULATE([Total Sales], ALL(blinkit_sales)), 0)
+
+Dashboard layout: KPI cards (Total Sales, Average Sales, Records, Average Rating);
+bar chart Sales by Item Type; column chart Sales by Outlet Type; donut Sales by Fat Content;
+column chart Sales by Location Tier; line chart Sales by Establishment Year; matrix by Outlet Type.
+Slicers: Item Type, Outlet Type, Outlet Size, Location Tier, Fat Content.

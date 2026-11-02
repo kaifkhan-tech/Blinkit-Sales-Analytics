@@ -1,0 +1,12 @@
+POWER BI BUILD GUIDE (Power BI Desktop required)
+1. Get Data > Text/CSV > Dataset/blinkit_sales_sample.csv > Load.
+2. Confirm column data types: year whole number, visibility decimal, weight/sales decimal, rating decimal.
+3. Create measures from DAX_Measures.txt.
+4. Add 4 Card visuals for KPI measures.
+5. Add clustered bar: Item_Type axis, Total Sales values.
+6. Add donut: Item_Fat_Content legend, Total Sales values.
+7. Add column chart: Outlet_Location_Type axis, Total Sales values.
+8. Add line chart: Outlet_Establishment_Year axis, Total Sales values.
+9. Add table/matrix with Outlet_Type and measures.
+10. Add slicers and format page with title “Blinkit Sales Analysis”. Save as Blinkit_Sales_Dashboard.pbix.
+Note: PBIX cannot be generated/executed in this environment; this guide and dataset support its creation on a Windows PC.

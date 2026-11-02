@@ -1,0 +1,1 @@
+This CSV is a generated practice sample (600 records) created for this project bundle. It follows a public grocery retail dataset schema and is not official Blinkit transactional data. Public dataset reference: https://www.kaggle.com/datasets/arunkumaroraon/blinkit-grocery-dataset
